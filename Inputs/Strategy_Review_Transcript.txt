@@ -1,0 +1,78 @@
+CLEARSPEND STRATEGY REVIEW
+Meeting Transcript (Condensed)
+Date: 2026-04-07 | Duration: 55 min
+
+Attendees
+- Ava Morgan (Product Manager)
+- James Patel (Engineering Manager)
+- Rina Shah (Compliance Lead)
+- Leo Grant (CRM Lead)
+- Mia Chen (Data Product Lead)
+- Noah Ellis (Finance Partner)
+- Tara Cole (Operations)
+
+[10:01] Ava (Product): Goal today is to lock launch decisions for ClearSpend and prepare leadership readout.
+
+[10:03] James (Engineering): Release train can support July 28 if no additional major scope is added.
+
+[10:05] Rina (Compliance): I am concerned some nudges could be interpreted as advice unless wording is revised and approved.
+
+[10:07] Leo (CRM): For alert cadence, I propose daily alerts for users over budget.
+
+[10:08] Tara (Ops): Daily alerts could create support volume spikes. We need modeled contact impact before approving.
+
+[10:10] Noah (Finance): Pilot size matters for cost control. I prefer 2,000 users first.
+
+[10:12] Ava (Product): Growth team asked for 5,000 users to get statistically meaningful engagement data quickly.
+
+[10:14] Mia (Data): Vendor categorization quality is inconsistent for merchant names with abbreviations. We need a human-review fallback.
+
+[10:16] James (Engineering): Notification service latency is currently 6-8 seconds at peak. We need to hit below 5 seconds.
+
+[10:19] Rina (Compliance): I can approve pilot launch only if compliance-approved language is in production before rollout.
+
+[10:22] Ava (Product): We have Decision A approved: budgets + savings goals in same release. No disagreement.
+
+[10:24] Noah (Finance): I thought AI recommendations would be off by default for pilot.
+
+[10:25] Ava (Product): Brief says that decision is pending governance review. Not finalized yet.
+
+[10:27] Leo (CRM): If AI recommendations are off, engagement may drop. I suggest on-by-default for pilot.
+
+[10:29] Rina (Compliance): That cannot be finalized before model risk review.
+
+[10:31] Tara (Ops): Who owns launch-day incident command? I do not see a named owner.
+
+[10:32] James (Engineering): I assumed Product Ops owned that.
+
+[10:33] Ava (Product): Not assigned yet. Add as blocker.
+
+[10:35] Decision Capture (in-meeting)
+- Confirmed: Phase 1 scope remains budgets + savings goals + subscription alerts.
+- Proposed: Alert cadence decision deferred pending CRM rate-limit and Ops impact model.
+- Pending: AI recommendations default setting remains pending model risk assessment.
+- Proposed: Pilot size decision deferred to CFO review (2,000 vs 5,000 users).
+
+[10:41] Action Items
+1. Rina (Compliance) to provide approved nudge language set by 2026-04-12.
+2. Leo (CRM) to deliver alert impact model by 2026-04-11.
+3. James (Engineering) to produce latency remediation plan by 2026-04-10.
+4. Mia (Data) to define categorization QA fallback process by 2026-04-13.
+5. Ava (Product) to submit pilot cohort options memo to CFO by 2026-04-14.
+6. Owner TBD: Launch-day incident command owner to be assigned before readiness review.
+
+[10:50] Risks Raised
+- Regulatory interpretation risk on behavioral nudges.
+- Operational risk from unmodeled alert volume.
+- Technical risk from notification latency above threshold.
+- Data quality risk from categorization errors.
+- Governance risk from missing incident command ownership.
+
+[10:54] Confidence Round
+- Product: Medium
+- Engineering: Medium
+- Compliance: Medium-Low until language approval
+- Finance: Medium pending pilot-size decision
+- Operations: Medium-Low pending ownership and contact-volume model
+
+Meeting End: 10:56

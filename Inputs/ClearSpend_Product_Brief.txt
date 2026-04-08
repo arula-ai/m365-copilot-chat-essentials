@@ -1,0 +1,105 @@
+CLEARSPEND PRODUCT BRIEF
+Regional Banking Launch Packet
+Version: 1.0 | Updated: 2026-04-08
+
+1) Product Objective
+ClearSpend is a personal finance dashboard for regional bank customers. It helps customers track spending, set budgets, and manage savings goals while giving the bank clearer engagement signals for retention and cross-sell.
+
+2) Target Users
+- Primary: Digitally active retail customers, ages 25-44
+- Secondary: Relationship managers and branch advisors supporting financial wellness conversations
+
+3) Scope for Phase 1 (Q3 2026)
+- Category-based spend breakdown (monthly and weekly)
+- Budget setup and overspend alerts
+- Savings goals with progress tracking
+- Subscription detection alerts
+- Personalized spending insights based on historical patterns
+
+4) Not in Scope for Phase 1
+- Credit score simulation
+- Investment portfolio recommendations
+- Small business expense management
+- Open API partner marketplace
+
+5) Launch Timeline
+- Design sign-off: 2026-05-10
+- Engineering freeze: 2026-06-20
+- Risk and compliance readiness review: 2026-06-28
+- Pilot launch (employees + friendly users): 2026-07-08
+- Public launch target: 2026-07-28
+
+6) Dependencies
+- Mobile app release train capacity (critical)
+- Notification service latency below 5 seconds
+- Compliance approval for behavioral alert wording
+- Vendor data enrichment contract finalization
+
+7) Key Decisions
+Decision A
+- Topic: Launch scope includes budget and savings goals in same release
+- Status: Approved
+- Decision Owner: Product Manager (A. Morgan)
+- Approver: VP Digital Banking
+- Decision Date: 2026-04-01
+- Effective Date: 2026-04-02
+- Dependency: None
+
+Decision B
+- Topic: Alert cadence for overspend notifications
+- Status: Proposed
+- Decision Owner: Product + CRM Lead
+- Approver: TBD
+- Decision Date: TBD
+- Effective Date: TBD
+- Dependency: CRM rate-limit confirmation
+
+Decision C
+- Topic: AI-generated recommendations shown by default
+- Status: Pending
+- Decision Owner: Product Governance Council
+- Approver: CISO + Compliance Head
+- Decision Date: 2026-04-15 (target)
+- Effective Date: TBD
+- Dependency: Model risk assessment completion
+
+Decision D
+- Topic: Pilot cohort size (2,000 users vs 5,000 users)
+- Status: Proposed
+- Decision Owner: Growth Lead
+- Approver: CFO
+- Decision Date: 2026-04-18 (target)
+- Effective Date: TBD
+- Dependency: call center staffing model update
+
+8) Risks (Current)
+Risk 1: Compliance wording for behavioral nudges may be interpreted as financial advice.
+- Impact: High
+- Likelihood: Medium
+- Mitigation Owner: Compliance Lead
+
+Risk 2: Push notification fatigue may drive app opt-outs.
+- Impact: Medium
+- Likelihood: High
+- Mitigation Owner: CRM Lead
+
+Risk 3: Vendor enrichment quality may produce incorrect spend categorization.
+- Impact: High
+- Likelihood: Medium
+- Mitigation Owner: Data Product Lead
+
+Risk 4: July launch depends on release train slot already near capacity.
+- Impact: High
+- Likelihood: Medium
+- Mitigation Owner: Engineering Manager
+
+9) Success Criteria
+- 30-day feature activation rate >= 35%
+- Monthly active use of budgeting tools >= 20%
+- Reduction in customer churn among adopters >= 1.0 percentage points (12 months)
+- Support ticket rate below 1.5% of active users
+
+10) Open Items (Governance Gaps)
+- Approver for alert cadence final decision is not assigned
+- Effective date for AI recommendation default is unknown
+- Final owner for launch-day incident command process is not confirmed
