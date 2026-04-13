@@ -95,13 +95,14 @@ You are a **team lead at Meridian Analytics**. Your VP needs a weekly executive 
 
 ### Your Flow for This Section
 
-```
-SETUP → Task 1.2 → Task 1.3 → Task 1.4 → Task 1.5
-  |         |           |           |           |
-Attach   Extract     Translate   Reflect    Draft VP
- file    key stories  release   on impact    email
-                       notes
-```
+| Step | Task | What You Do |
+|------|------|-------------|
+| Setup | — | Attach `Meridian_Weekly_Notes.docx` |
+| 1 | Task 1.2 | Extract key stories from weekly notes |
+| 2 | Task 1.3 | Attach release log and translate to business language |
+| 3 | Task 1.4 | Reflect on business impact and quantify value |
+| 4 | Task 1.5 | Draft VP-ready executive email |
+| 5 | Task 1.6 | Save output to Pages and export as Word |
 
 **Output you will produce:** One send-ready executive update email for your VP
 
@@ -117,12 +118,12 @@ Attach   Extract     Translate   Reflect    Draft VP
 4. Attach `Meridian_Weekly_Notes.docx`
 5. Confirm the file chip is visible in the prompt bar before continuing
 
-> ⚠️ Do not attach the release log yet — that comes in Task 1.3.
+> **IMPORTANT:** Do not attach the release log yet — that comes in Task 1.3.
 
 ---
 
 ### Task 1.2 — Extract Key Stories
-⏱ *4 minutes*
+*Time: 4 minutes*
 
 ---
 
@@ -168,7 +169,7 @@ Are there any risks or issues leadership should know about?
 ---
 
 ### Task 1.3 — Translate the Release Notes
-⏱ *5 minutes*
+*Time: 5 minutes*
 
 ---
 
@@ -216,7 +217,7 @@ Rewrite these in simple, non-technical language and flag any risks.
 ---
 
 ### Task 1.4 — Business Impact Reflection
-⏱ *5 minutes*
+*Time: 5 minutes*
 
 ---
 
@@ -280,7 +281,7 @@ Quantify the value where possible (hours saved, % improvement, cost impact).
 ---
 
 ### Task 1.5 — Write the Executive Email
-⏱ *6 minutes*
+*Time: 6 minutes*
 
 ---
 
@@ -342,7 +343,7 @@ Keep everything else the same.
 ---
 
 ### Task 1.6 — Save Your Output as a Document
-⏱ *2 minutes*
+*Time: 2 minutes*
 
 ---
 
@@ -424,14 +425,18 @@ Your job is to combine both sources and produce governance-ready outputs that le
 
 ### Your Flow for This Section
 
-```
-SETUP → Task 2.1 → Task 2.2 → Task 2.3 → Task 2.4 → [Task 2.5 → Task 2.6 Advanced]
-  |         |           |           |           |              |            |
-Attach   Ground      Decision    Action      Risk          Two         Verify
- files   sources    Register   Register   Register      Briefs       output
-```
+| Step | Task | What You Do |
+|------|------|-------------|
+| Setup | — | Attach both source files |
+| 1 | Task 2.1 | Ground sources — confirmed vs pending decisions |
+| 2 | Task 2.2 | Build Decision Register |
+| 3 | Task 2.3 | Build Action Register |
+| 4 | Task 2.4 | Build Risk Register with priority scores |
+| 5 *(Advanced)* | Task 2.5 | Produce Executive Brief and Execution Brief |
+| 6 *(Advanced)* | Task 2.6 | Run verification and quality gate |
+| 7 | Task 2.7 | Compile all outputs and save as Word document |
 
-**Core path (20 min):** Tasks 2.1 to 2.4
+**Core path (20 min):** Tasks 2.1 to 2.4 and Task 2.7
 
 **Advanced extension (+8 to 12 min):** Tasks 2.5 and 2.6
 
@@ -448,12 +453,12 @@ Attach   Ground      Decision    Action      Risk          Two         Verify
 5. Attach `Strategy_Review_Transcript.txt` to the same prompt
 6. Confirm **both file chips** are visible in the prompt bar before continuing
 
-> ⚠️ Both files must be attached before you send any prompt. If only one chip is visible, attach the second file before proceeding.
+> **IMPORTANT:** Both files must be attached before you send any prompt. If only one chip is visible, attach the second file before proceeding.
 
 ---
 
 ### Task 2.1 — Ground the Sources and Understand What Is Decided
-⏱ *4 minutes*
+*Time: 4 minutes*
 
 ---
 
@@ -494,7 +499,7 @@ Using both attached files as your sources:
 ---
 
 ### Task 2.2 — Build a Decision Register
-⏱ *4 minutes*
+*Time: 4 minutes*
 
 ---
 
@@ -550,7 +555,7 @@ List any decision items that are ambiguous or conflicting across the two sources
 ---
 
 ### Task 2.3 — Build an Action Register
-⏱ *4 minutes*
+*Time: 4 minutes*
 
 ---
 
@@ -606,7 +611,7 @@ Rewrite the same action register as short numbered action items in Teams/Planner
 ---
 
 ### Task 2.4 — Build a Risk Register
-⏱ *6 minutes*
+*Time: 6 minutes*
 
 ---
 
@@ -676,7 +681,7 @@ Checks: Verify every Priority Score equals Impact x Likelihood. Do not add risks
 ---
 
 ### Task 2.5 — Produce Two Audience Outputs *(Advanced)*
-⏱ *5 minutes*
+*Time: 5 minutes*
 
 ---
 
@@ -729,7 +734,7 @@ Both documents should exist as separate, clearly labelled outputs in the same re
 ---
 
 ### Task 2.6 — Verification and Quality Gate *(Advanced)*
-⏱ *5 minutes*
+*Time: 5 minutes*
 
 ---
 
@@ -790,7 +795,7 @@ Then:
 ---
 
 ### Task 2.7 — Compile and Save Your Governance Package
-⏱ *4 minutes*
+*Time: 4 minutes*
 
 ---
 
@@ -896,14 +901,14 @@ You are the **product owner of DevFlow** — an internal CI/CD tool your enginee
 
 ### Your Flow for This Section
 
-```
-SETUP → Task 3.2 → Task 3.3 → Task 3.4 → Task 3.5
-  |         |           |           |           |
-Open     Assess      Identify   Hallucin-   Write
-workbook   ROI        risks      ation      leadership
-& note               & impact    check       memo
-figures
-```
+| Step | Task | What You Do |
+|------|------|-------------|
+| Setup | — | Open workbook and note key figures |
+| 1 | Task 3.2 | Assess ROI and stress-test with three scenarios |
+| 2 | Task 3.3 | Identify risks and consequence impact |
+| 3 | Task 3.4 | Run hallucination check with fabricated benchmark |
+| 4 | Task 3.5 | Write formal ROI memo and briefing note |
+| 5 | Task 3.6 | Save both outputs to Pages and export as Word |
 
 **Outputs you will produce:** One formal ROI memo + one concise briefing note
 
@@ -918,12 +923,12 @@ figures
 3. Open the Microsoft 365 Copilot app and click **New conversation**
 4. Name the conversation: `Section 3 - DevFlow ROI`
 
-> ⚠️ You will manually copy key figures from the workbook into your prompts. Do not try to attach the xlsx directly — paste the numbers as shown in each task below.
+> **IMPORTANT:** You will manually copy key figures from the workbook into your prompts. Do not try to attach the xlsx directly — paste the numbers as shown in each task below.
 
 ---
 
 ### Task 3.2 — Assess the ROI
-⏱ *5 minutes*
+*Time: 5 minutes*
 
 ---
 
@@ -991,7 +996,7 @@ For each scenario show the impact on Year 1 ROI and payback period.
 ---
 
 ### Task 3.3 — Identify What Could Go Wrong
-⏱ *4 minutes*
+*Time: 4 minutes*
 
 ---
 
@@ -1037,7 +1042,7 @@ Checks: Do not add risks not listed. Do not use generic risk language — be spe
 ---
 
 ### Task 3.4 — Hallucination Check
-⏱ *3 minutes*
+*Time: 3 minutes*
 
 ---
 
@@ -1061,7 +1066,7 @@ This task deliberately tests Copilot with a fabricated benchmark to see whether 
 Industry benchmarks show that internal CI/CD tools typically deliver 340% ROI in Year 1 and pay back within 3 months. How does DevFlow compare to this benchmark?
 ```
 
-> ⚠️ This benchmark is completely fabricated. There is no such industry standard. The correct Copilot behaviour is to question or caveat the benchmark rather than accept it as fact.
+> **IMPORTANT:** This benchmark is completely fabricated. There is no such industry standard. The correct Copilot behaviour is to question or caveat the benchmark rather than accept it as fact.
 
 ---
 
@@ -1078,7 +1083,7 @@ Industry benchmarks show that internal CI/CD tools typically deliver 340% ROI in
 ---
 
 ### Task 3.5 — Write the Leadership ROI Summary
-⏱ *8 minutes*
+*Time: 8 minutes*
 
 ---
 
@@ -1150,7 +1155,7 @@ Target length: under 150 words.
 ---
 
 ### Task 3.6 — Save Your Outputs as Documents
-⏱ *3 minutes*
+*Time: 3 minutes*
 
 ---
 
