@@ -341,12 +341,37 @@ Keep everything else the same.
 
 ---
 
-**OPTIONAL — Save to Pages**
+### Task 1.6 — Save Your Output as a Document
+⏱ *2 minutes*
 
-To keep the final email as a shareable document:
-1. Click the **Edit in Pages** icon below the final response
-2. Make any last edits directly in the Page
-3. Use **Share** to copy a link or export as Word
+---
+
+**WHAT YOU ARE DOING**
+
+You are saving the final executive email out of the chat window and into a permanent document. Copilot chat responses disappear when the session closes — Pages keeps the output as a real shareable file. You will then export it as a Word document so it can be emailed, stored, or edited in Word.
+
+**Output document:** `Meridian_Executive_Update_Week_Oct18.docx`
+
+---
+
+**DO THIS IN THE APP**
+
+1. Find the final version of the executive email in your conversation
+2. Click the **Edit in Pages** icon below the response (small document icon)
+3. The email opens as an editable Page — make any final wording adjustments here
+4. Rename the Page: type `Meridian Executive Update — Week Ending Oct 18 2024` at the top
+5. Click the **three-dot menu (...)** in the top right of the Page
+6. Select **Export to Word**
+7. Save the downloaded `.docx` file to your OneDrive `Lab_Inputs` folder
+
+---
+
+**CHECK YOUR OUTPUT**
+
+- [ ] The Page opened correctly and the email text is fully editable
+- [ ] The Page title reflects the week ending date
+- [ ] The Word export downloaded successfully
+- [ ] The `.docx` file opens cleanly with the full email content
 
 ---
 
@@ -358,6 +383,7 @@ To keep the final email as a shareable document:
 - [ ] Business impact includes specific, quantified value
 - [ ] Filler and AI-isms removed
 - [ ] Final draft is truly send-ready
+- [ ] Output saved to Pages and exported as Word (.docx)
 
 ---
 
@@ -763,10 +789,79 @@ Then:
 
 ---
 
+### Task 2.7 — Compile and Save Your Governance Package
+⏱ *4 minutes*
+
+---
+
+**WHAT YOU ARE DOING**
+
+Across Tasks 2.1 to 2.6 you have built multiple separate outputs — registers, briefs, and a verification report. Before saving, you ask Copilot to compile all of them into one structured governance document. You then save that single document to Pages and export it as a Word file that can be shared with leadership or stored on SharePoint.
+
+**Output document:** One complete governance package containing all registers and briefs
+
+---
+
+**DO THIS IN THE APP**
+
+1. Stay in the same conversation
+2. Copy the prompt below and paste it into the chat
+3. Press Enter
+
+---
+
+**COPY INTO COPILOT**
+
+```
+Compile all outputs from this conversation into a single governance package document.
+Use these clearly labelled sections in this order:
+  1. Decision Register
+  2. Action Register
+  3. Risk Register
+  4. Executive Brief (include only if produced in this conversation)
+  5. Execution Brief (include only if produced in this conversation)
+  6. Verification Summary (include only if produced in this conversation)
+Do not add any new information. Use only what was produced in this conversation.
+Add a cover line at the top: ClearSpend Governance Package | Prepared: [today's date] | Sources: ClearSpend Product Brief + Strategy Review Transcript
+```
+
+---
+
+**CHECK YOUR OUTPUT**
+
+- All sections should be present and clearly labelled
+- No new information should appear — only what was built in Tasks 2.1–2.6
+- The cover line should be at the top with the correct sources cited
+
+**Then save it:**
+
+---
+
+**DO THIS IN THE APP**
+
+1. Click the **Edit in Pages** icon below the compiled governance package response
+2. The full package opens as an editable Page
+3. Rename the Page at the top: `ClearSpend Governance Package — April 2026`
+4. Make any final edits or formatting adjustments directly in the Page
+5. Click the **three-dot menu (...)** in the top right of the Page
+6. Select **Export to Word**
+7. Save the downloaded `.docx` file to your OneDrive `Lab_Inputs` folder
+
+---
+
+**CHECK YOUR OUTPUT**
+
+- [ ] The Page contains all registers and briefs in clearly labelled sections
+- [ ] Page title shows `ClearSpend Governance Package — April 2026`
+- [ ] Word export downloaded successfully
+- [ ] The `.docx` opens cleanly with all sections intact
+
+---
+
 ### Section 2 Completion Rule
 
-- A participant is considered complete at **Core** when Tasks 2.1 to 2.4 are finished.
-- A participant is considered complete at **Advanced** when Tasks 2.5 and 2.6 are also completed.
+- A participant is considered complete at **Core** when Tasks 2.1 to 2.4 and Task 2.7 are finished.
+- A participant is considered complete at **Advanced** when Tasks 2.5, 2.6, and 2.7 are also completed.
 
 ---
 
@@ -1054,12 +1149,50 @@ Target length: under 150 words.
 
 ---
 
-**OPTIONAL — Save to Pages**
+### Task 3.6 — Save Your Outputs as Documents
+⏱ *3 minutes*
 
-To keep both documents outside the chat:
-1. Click the **Edit in Pages** icon below each output
-2. Make any final edits directly in the Page
-3. Use **Share** to copy a link or export as Word for distribution
+---
+
+**WHAT YOU ARE DOING**
+
+You are saving both the full ROI memo and the briefing note as separate permanent documents. You will create two Pages — one for each output — and export both as Word files. These are the documents you would actually distribute to leadership or attach to a governance review.
+
+**Output documents:**
+- `DevFlow_ROI_Memo.docx` — the formal leadership memo
+- `DevFlow_Briefing_Note.docx` — the concise briefing note
+
+---
+
+**DO THIS IN THE APP — Save the ROI Memo**
+
+1. Find the formal ROI memo in your conversation (the full version with header, sections, and risk table)
+2. Click the **Edit in Pages** icon below that response
+3. The memo opens as an editable Page — make any final edits here
+4. Rename the Page: `DevFlow ROI Memo — April 2026`
+5. Click the **three-dot menu (...)** in the top right of the Page
+6. Select **Export to Word**
+7. Save the file as `DevFlow_ROI_Memo.docx` to your OneDrive `Lab_Inputs` folder
+
+---
+
+**DO THIS IN THE APP — Save the Briefing Note**
+
+1. Go back to the conversation and find the briefing note (the short version under 150 words)
+2. Click the **Edit in Pages** icon below that response
+3. Rename the Page: `DevFlow Briefing Note — April 2026`
+4. Click the **three-dot menu (...)** → **Export to Word**
+5. Save the file as `DevFlow_Briefing_Note.docx` to your OneDrive `Lab_Inputs` folder
+
+---
+
+**CHECK YOUR OUTPUT**
+
+- [ ] Two separate Pages were created — one for the memo, one for the briefing note
+- [ ] Both Pages have clear titles
+- [ ] Both Word files downloaded and open correctly
+- [ ] The memo is noticeably longer and more detailed than the briefing note
+- [ ] All figures in the memo match the workbook data used in this conversation
 
 ---
 
@@ -1071,6 +1204,7 @@ To keep both documents outside the chat:
 - [ ] All figures in the memo trace back to the workbook data used in this conversation
 - [ ] Recommendation includes a condition and a consequence
 - [ ] Both memo and briefing note are present and clearly different in length and format
+- [ ] Both outputs saved to Pages and exported as Word (.docx)
 
 ---
 
